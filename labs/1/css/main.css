@@ -1,0 +1,101 @@
+body {
+    background-color: #DE691B;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width:75%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.index {
+    text-align: center;
+    font-weight: bold;
+}
+
+.actual {
+    color: #6B0D04;
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list li {
+    display: inline;
+    padding-right: 50px;
+}
+
+.image {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 320px;
+    height: 192px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #46CF26;
+}
+
+.blue {
+    background-color: #186ED2;
+}
+
+.brown {
+    font-size: 20px;
+    color: white;
+    background-color: #550002;
+    text-align: center;
+}
+
+.white {
+    background-color: #C0DBE6;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: black;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #6B0D04;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #6B0D04;
+}

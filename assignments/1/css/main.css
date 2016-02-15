@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    -moz-text-decoration-style: double; /* Code for Firefox */
+    text-decoration: underline;
+}
+
+img {
+    border: 5px solid black;
+    padding: 15px;
+}
+
+h2 {
+    color: #4CAF50;
+    text-decoration: underline;
+    -moz-text-decoration-style: wavy; /* Code for Firefox */
+    text-decoration-style: wavy;
+}
+
+#post {
+    text-align: center;
+    font-size: 125%;
+}
+
+footer > * {
+    color: #4CAF50;
+    font-weight: 900;
+}
+
+.central {
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.list li {
+    float: left;
+}
+
+.list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
