@@ -5,3 +5,32 @@
 [10-Feb-2016 19:25:58 UTC] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND) in /home/ubuntu/workspace/labs/2/review.php on line 30
 [10-Feb-2016 19:28:13 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/ubuntu/workspace/labs/2/review.php on line 30
 [10-Feb-2016 19:28:14 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/ubuntu/workspace/labs/2/review.php on line 30
+[17-Feb-2016 18:50:38 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/labs/3/index.php on line 9
+[17-Feb-2016 18:50:38 UTC] PHP Stack trace:
+[17-Feb-2016 18:50:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/3/index.php:0
+[17-Feb-2016 18:50:38 UTC] PHP   2. array_splice(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/3/index.php:9
+[17-Feb-2016 18:52:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/3/index.php on line 9
+[17-Feb-2016 18:52:39 UTC] PHP Stack trace:
+[17-Feb-2016 18:52:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/3/index.php:0
+[17-Feb-2016 18:52:39 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/3/index.php:9
+[17-Feb-2016 18:52:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/labs/3/index.php on line 9
+[17-Feb-2016 18:52:54 UTC] PHP Stack trace:
+[17-Feb-2016 18:52:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/3/index.php:0
+[17-Feb-2016 18:52:54 UTC] PHP   2. array_push(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/3/index.php:9
+[17-Feb-2016 19:04:01 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/ubuntu/workspace/labs/3/index.php on line 29
+[17-Feb-2016 19:04:03 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/ubuntu/workspace/labs/3/index.php on line 29
+[17-Feb-2016 19:07:42 UTC] PHP Parse error:  syntax error, unexpected '"cousin"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ubuntu/workspace/labs/3/index.php on line 29
+[17-Feb-2016 19:11:32 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/labs/3/index.php on line 31
+[17-Feb-2016 19:13:24 UTC] PHP Warning:  array_splice() expects parameter 1 to be array, null given in /home/ubuntu/workspace/labs/3/index.php on line 31
+[17-Feb-2016 19:13:24 UTC] PHP Stack trace:
+[17-Feb-2016 19:13:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/3/index.php:0
+[17-Feb-2016 19:13:24 UTC] PHP   2. array_splice(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/labs/3/index.php:31
+[17-Feb-2016 19:16:03 UTC] PHP Fatal error:  Cannot use [] for unsetting in /home/ubuntu/workspace/labs/3/index.php on line 35
+[17-Feb-2016 19:16:13 UTC] PHP Fatal error:  Cannot use [] for unsetting in /home/ubuntu/workspace/labs/3/index.php on line 39
+[17-Feb-2016 19:16:23 UTC] PHP Fatal error:  Cannot use [] for unsetting in /home/ubuntu/workspace/labs/3/index.php on line 35
+[17-Feb-2016 19:16:24 UTC] PHP Fatal error:  Cannot use [] for unsetting in /home/ubuntu/workspace/labs/3/index.php on line 35
+[17-Feb-2016 19:19:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/labs/3/index.php on line 36
+[17-Feb-2016 19:19:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/labs/3/index.php on line 36
+[17-Feb-2016 19:28:57 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/ubuntu/workspace/labs/3/index.php on line 42
+[17-Feb-2016 19:44:07 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ubuntu/workspace/labs/3/index.php on line 71
+[17-Feb-2016 19:47:26 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/labs/3/index.php on line 74
