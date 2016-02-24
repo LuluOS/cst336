@@ -1,0 +1,6 @@
+[23-Feb-2016 18:01:12 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/assignments/2/index.php on line 30
+[23-Feb-2016 18:01:12 UTC] PHP Stack trace:
+[23-Feb-2016 18:01:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/2/index.php:0
+[23-Feb-2016 18:05:42 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/assignments/2/index.php on line 30
+[23-Feb-2016 18:05:42 UTC] PHP Stack trace:
+[23-Feb-2016 18:05:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/2/index.php:0
