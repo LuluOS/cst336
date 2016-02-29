@@ -1,0 +1,14 @@
+.container {
+    background-image: url("flag.jpg");
+    /*background-color: #cccccc; //18,39,63*/
+}
+
+.content {
+    margin: auto;
+    width: 600px;
+    /*padding: 20px;*/
+}
+
+.label {
+    display: inline-block;
+}

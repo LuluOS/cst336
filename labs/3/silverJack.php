@@ -81,22 +81,22 @@ function getClosest($search, $arr, &$winner) //return array of the winners
 }
 
 /*******************************************************************************/
-function whoWin(&$players,&$winner) //returns a array with the winner / winners
+function whoWin(&$players,&$names,&$winner) //returns a array with the winner / winners
 {
   getClosest(42, $players, $winner);
   
   if (count($winner) == 1)
   {
-    echo "<h1>Player " . ($winner[0] + 1) ." WON!</h1>";
+    echo "<h3>Player " . $names[($winner[0])] ." WON!</h3>";
   }
   else
   {
-    echo "<h1>";
+    echo "<h3>";
     for ($i = 0; $i < count($winner); $i++)
     {
-      echo "Player " . ($winner[$i] + 1) . " ";
+      echo "Player " . $names[($winner[$i])] . " ";
     } 
-    echo "WON!</h1>";
+    echo "WON!</h3>";
   }
 }
 
@@ -110,7 +110,7 @@ function printCard(&$cards)
     $cardValue = $cards[$i]["value"];
     $cardSuit = $cards[$i]["suit"];
     echo "<td>";
-    echo "<img src='assets/$cardSuit/$cardValue.png'/>";
+    echo "<img class=\"cards\" src='assets/$cardSuit/$cardValue.png'/>";
     echo "</td>";
   }
 }
@@ -123,6 +123,7 @@ function game()
   //print_r($deck);
   
   $players = array(0,0,0,0); //each index is going to be the score of each player
+  $names = ["Milhouse", "Lisa", "Maggie", "Bart"];
   $winner = [];
   $cards[] = array();
   
@@ -151,13 +152,15 @@ function game()
     echo "<table>";
     for ($i = 0; $i < 4; $i++)
     {
+      $j = $i+1;
       echo "<tr>";
         echo "<td>";
-         echo "<h2>Player " .($i+1)." </h2>";
+         echo "<img class=\"players\" src='assets/players/$j.png'/>";
+         echo "<hr>";
         echo "</td>";
-          printCard($cards[$i]);
+        printCard($cards[$i]);
         echo "<td>";
-         echo "<h2>$players[$i]</h2>";
+         echo "<h3>$players[$i]</h3>";
         echo "</td>";
       echo "</tr>";
       
@@ -166,7 +169,7 @@ function game()
   echo "</div>";
     
   echo "<div id=\"winner\">";
-    whoWin($players,$winner);
+    whoWin($players,$names,$winner);
   echo "</div>";
 
   unset($deck);
@@ -191,13 +194,15 @@ function game()
           <h1>Silver Jack</h1>
         </div>
         
-        <div id="images">
-          <p>images</p>
-        </div>
-        
         <?php
           game();
         ?>
+        
+        <div id="form">
+          <form action ="silverJack.php" method="post">
+            <input class="continue" type="submit" name="choice" value="Play Again"></input><br>
+          </form>
+        </div>
         
         <div id="footer">
           <hr>
