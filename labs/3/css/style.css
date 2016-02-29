@@ -1,0 +1,40 @@
+body{
+    text-align:center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#images {
+    float:left;
+    width:240px;
+    background-color:#eeeeee;      
+}
+
+#field {
+    float:left;
+    width:480px; 
+    margin-left:15%; 
+    margin-right:20%;
+}
+
+#winner {
+    float:left;
+    width:240px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}

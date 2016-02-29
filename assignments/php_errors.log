@@ -4,3 +4,9 @@
 [23-Feb-2016 18:05:42 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/assignments/2/index.php on line 30
 [23-Feb-2016 18:05:42 UTC] PHP Stack trace:
 [23-Feb-2016 18:05:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignments/2/index.php:0
+[25-Feb-2016 02:03:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/assignments/2/index.php on line 9
+[25-Feb-2016 02:03:57 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/assignments/2/index.php on line 9
+[25-Feb-2016 02:04:25 UTC] PHP Parse error:  syntax error, unexpected '$dir' (T_VARIABLE) in /home/ubuntu/workspace/assignments/2/index.php on line 21
+[25-Feb-2016 02:04:26 UTC] PHP Parse error:  syntax error, unexpected '$dir' (T_VARIABLE) in /home/ubuntu/workspace/assignments/2/index.php on line 21
+[25-Feb-2016 02:12:34 UTC] PHP Parse error:  syntax error, unexpected '$evenPic' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/assignments/2/index.php on line 58
+[25-Feb-2016 02:12:34 UTC] PHP Parse error:  syntax error, unexpected '$evenPic' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/assignments/2/index.php on line 58

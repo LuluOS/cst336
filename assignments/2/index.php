@@ -1,60 +1,85 @@
-<?php
-echo '<link href="css/style.css" rel="stylesheet">';
-
-/*Create a PHP program that uses at least two loops (15 pts)
-It must include at least two conditions (15 pts)
-You must use at least 15 CSS rules in an external file (15 pts)
-You must use the rand() function (10 pts)
-You must use at least two images (15 pts)
-You must use at least one array (15 pts)
-You must use at least three array functions (15 pts)*/
-
-    //Declare & Inicialize
-    $numbers = [];
-    $odd = [];
-    $even = [];
-    
-    
-    //Use: iterate or loop
-    for ($f = 0; $f < 10; $f++)
-    {
-        $n = rand(0,10);
-        array_push($numbers, $n);
-    }
-    sort($numbers);
-    
-    
-    foreach($numbers as $k => $v)
-    {
-        if ($v % 2 == 0)
-        {
-            $even[] = $v;
-        }
-        else
-        {
-            $odd[] = $v;
-        }
-    }
-    
-    
-    $dir = 'images/';
-    $file = 'numbers.jpg';
-    echo '<img src="'. $dir. '/'. $file . '" alt="'. $file .'" />';
-    
-    //Print out
-    echo "<div id=\"Numbers\">Numbers: ";
-    var_dump($numbers);
-    echo "</div>";
-    
-    echo "<div id=\"Odds\">Odd: ";
-    var_dump($odd);
-    echo "</div>";
-     
-    echo "<div id=\"Evens\">Even: ";
-    var_dump($even);
-    echo "</div>";
-    
-    unset($numbers);
-    unset($odd);
-    unset($even);
-?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment2 </title>
+        
+    </head>
+    <body>
+        <h1>NUMBERS ODD OR EVEN??</h1>
+        <div id="numbers">
+        <?php
+        
+            echo "<link rel='stylesheet' type='text/css' href='css/style.css' />";
+            
+            $evenPic = "images/even.jpg";
+            $oddPic = "images/odd.png";
+            /*
+            You must use at least 15 CSS rules in an external file (15 pts)
+            You must use at least two images (15 pts)
+            You must use at least one array (15 pts)
+            You must use at least three array functions (15 pts)*/
+            
+                //Declare & Inicialize
+                $numbers = [];
+                $odd = [];
+                $even = [];
+                
+                
+                //create a random array of numbers
+                for ($f = 0; $f < 10; $f++)
+                {
+                    $n = rand(0,10);
+                    array_push($numbers, $n);
+                }
+                $n = array_pop($numbers);
+                
+                if ($n % 2 == 0)
+                {
+                    echo "<div id=\"Evens\">";
+                        echo "<img src=\"images/even.png\" alt=\"even\">";
+                        echo "<p>EVEN!</p>";
+                    echo "</div>";
+                }
+                else
+                {
+                    echo "<div id=\"Odds\">";
+                        echo "<img src=\"images/odd.png\" alt=\"even\">";
+                        echo "<p>ODD!</p>";
+                    echo "</div>";
+                }
+                
+                sort($numbers);
+                
+                //separete it by even and odd
+                foreach($numbers as $k => $v)
+                {
+                    if ($v % 2 == 0)
+                    {
+                        $even[] = $v;
+                    }
+                    else
+                    {
+                        $odd[] = $v;
+                    }
+                }
+                
+                //Print out
+                echo "<div id=\"Numbers\">Numbers: ";
+                print_r($numbers);
+                echo "</div>";
+                
+                echo "<div id=\"Odds\">Odd: ";
+                print_r($odd);
+                echo "</div>";
+                 
+                echo "<div id=\"Evens\">Even: ";
+                print_r($even);
+                echo "</div>";
+                
+                unset($numbers);
+                unset($odd);
+                unset($even);
+        ?>
+        </div>
+    </body>
+</html>
