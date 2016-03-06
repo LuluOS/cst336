@@ -20,16 +20,18 @@
                         <div class="formEntry">
                             <div id="nameField">
                                 <p>Enter your name:
-                                <input type="text" name="name"/></p>
+                                <input type="text" name="name" required/></p>
                             </div>
+                            
                             <div id="ageField">
                                 <p>Enter your age:
-                                <input type="number" name="age" min="18" max="100"/>
+                                <input type="number" name="age" min="18" max="100" required/>
                                 (Must be 18 or older)</p>
                             </div>
+                            
                             <div id="candidateField">
                                 <p>Select your Candidate:
-                                <select name="candidate">
+                                <select name="candidate" required>
                                     <option selected disabled hidden value = ''></option>
                                     <option value="Bernie Sanders">Bernie Sanders</option>
                                     <option value="Donald Chump">Donald Chump</option>
@@ -38,6 +40,7 @@
                                 </select>
                                 </p>
                             </div>
+                            
                             <div id="merchandise">
                                 <h3>Merchandise</h3>
                                 <p><input type="checkbox" name="merchandise[]" value="Mug ($15)">Mug ($15)</p>
@@ -45,6 +48,7 @@
                                 <p><input type="checkbox" name="merchandise[]" value="Tote Bag ($10)">Tote Bag ($10)</p>
                                 <p><input type="checkbox" name="merchandise[]" value="Pin ($5)">Pin ($5)</p>
                             </div>
+                            
                             <div>
                                 <h3>Campaign Magazine ($10 per month)</h3>
                                 <div class="radios">
@@ -56,9 +60,11 @@
                             </div>
     
                         </div>
+                        
                         <div class="formSubmission">
                             <input class="submit" type="image" src="img/buynow.png" alt="Submit">
                         </div>
+                        
                     </form>
                 </div>
             </div>
