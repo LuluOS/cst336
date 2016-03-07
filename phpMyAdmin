@@ -1,0 +1,9 @@
+https://cst336-luluos.c9users.io/phpmyadmin/
+
+to make a primary key:
+ALTER TABLE `Department` ADD PRIMARY KEY (`DepartmentID`);
+
+ALTER TABLE `Department`
+  DROP PRIMARY KEY,
+   ADD PRIMARY KEY(
+     `DepartmentID`);
