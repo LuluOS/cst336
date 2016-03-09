@@ -7,3 +7,7 @@ ALTER TABLE `Department`
   DROP PRIMARY KEY,
    ADD PRIMARY KEY(
      `DepartmentID`);
+     
+SELECT * FROM `Employee` e INNER JOIN EmployeePay ep ON e.EmployeeID = ep.EmployeeID;
+
+SELECT e.FName, e.LName, ep.* FROM `Employee` e INNER JOIN EmployeePay ep ON e.EmployeeID = ep.EmployeeID;
