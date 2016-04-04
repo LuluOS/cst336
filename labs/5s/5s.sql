@@ -69,7 +69,9 @@ SELECT * FROM `Employee` e INNER JOIN `EmployeePay` ep ON e.EmployeeID = ep.Empl
         for each Employee row. You must add more than one row to the EmployeePay
         table to test this. Hint: you must use a sub-select. */
 SELECT  *
-FROM    EmployeePay ep
-WHERE   EffectiveDate = 
+FROM    Employee e LEFT JOIN 
+	EmployeePay ep ON e.EmployeeID = ep.EmployeeID
+WHERE   ep.EffectiveDate = 
         (SELECT MAX(EffectiveDate)
-        From EmployeePay eps
+        FROM EmployeePay eps
+        WHERE eps.EmployeeID = ep.EmployeeID)

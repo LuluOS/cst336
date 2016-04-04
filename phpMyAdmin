@@ -1,5 +1,7 @@
 https://cst336-luluos.c9users.io/phpmyadmin/
 
+mysql-ctl [start|restart|stop|status|cli|install]
+
 to make a primary key:
 ALTER TABLE `Department` ADD PRIMARY KEY (`DepartmentID`);
 

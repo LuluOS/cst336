@@ -1,0 +1,261 @@
+[28-Mar-2016 17:35:09 UTC] PHP Parse error:  syntax error, unexpected '$char' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/midterm/practice/practice_program1.php on line 47
+[28-Mar-2016 18:08:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/midterm/practice/submit.php on line 53
+[28-Mar-2016 18:08:12 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of char, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 51 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:08:12 UTC] PHP Stack trace:
+[28-Mar-2016 18:08:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:08:12 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:51
+[28-Mar-2016 18:08:37 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 51 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:08:37 UTC] PHP Stack trace:
+[28-Mar-2016 18:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:08:37 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:51
+[28-Mar-2016 18:10:32 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 54 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:10:32 UTC] PHP Stack trace:
+[28-Mar-2016 18:10:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:10:32 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:54
+[28-Mar-2016 18:11:33 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 54 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:11:33 UTC] PHP Stack trace:
+[28-Mar-2016 18:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:11:33 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:54
+[28-Mar-2016 18:12:48 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 54 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:12:48 UTC] PHP Stack trace:
+[28-Mar-2016 18:12:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:12:48 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:54
+[28-Mar-2016 18:13:18 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 53 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:13:18 UTC] PHP Stack trace:
+[28-Mar-2016 18:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:13:18 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:53
+[28-Mar-2016 18:13:43 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 54 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:13:43 UTC] PHP Stack trace:
+[28-Mar-2016 18:13:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:13:43 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:54
+[28-Mar-2016 18:15:40 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 56 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:15:40 UTC] PHP Stack trace:
+[28-Mar-2016 18:15:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:15:40 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:56
+[28-Mar-2016 18:27:00 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 73 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 19
+[28-Mar-2016 18:27:00 UTC] PHP Stack trace:
+[28-Mar-2016 18:27:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:27:00 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:73
+[28-Mar-2016 18:27:35 UTC] PHP Catchable fatal error:  Argument 1 passed to createTable() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 73 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 19
+[28-Mar-2016 18:27:35 UTC] PHP Stack trace:
+[28-Mar-2016 18:27:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:27:35 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:73
+[28-Mar-2016 18:28:58 UTC] PHP Catchable fatal error:  Argument 1 passed to createArray() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 74 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:28:58 UTC] PHP Stack trace:
+[28-Mar-2016 18:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:28:58 UTC] PHP   2. createArray($omit = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:74
+[28-Mar-2016 18:33:03 UTC] PHP Catchable fatal error:  Argument 1 passed to createArray() must be an instance of string, string given, called in /home/ubuntu/workspace/midterm/practice/submit.php on line 74 and defined in /home/ubuntu/workspace/midterm/practice/submit.php on line 5
+[28-Mar-2016 18:33:03 UTC] PHP Stack trace:
+[28-Mar-2016 18:33:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[28-Mar-2016 18:33:03 UTC] PHP   2. createArray($omit = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:74
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:41:41 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, boolean given in /home/ubuntu/workspace/midterm/practice/submit.php on line 27
+[29-Mar-2016 00:41:41 UTC] PHP Stack trace:
+[29-Mar-2016 00:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/midterm/practice/submit.php:0
+[29-Mar-2016 00:41:41 UTC] PHP   2. createTable($letter = *uninitialized*, $omit = *uninitialized*, $n = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:102
+[29-Mar-2016 00:41:41 UTC] PHP   3. randomLetter($array = *uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:49
+[29-Mar-2016 00:41:41 UTC] PHP   4. shuffle(*uninitialized*) /home/ubuntu/workspace/midterm/practice/submit.php:27
+[29-Mar-2016 00:59:16 UTC] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING), expecting '(' in /home/ubuntu/workspace/midterm/practice/submit.php on line 51

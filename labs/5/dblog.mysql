@@ -1,0 +1,26 @@
+INSERT INTO `OtterExpress`.`Category` (`CategoryID`, `Name`)
+    VALUES ('0', 'Starter'), ('1', 'Salad'), ('2', 'Wingery'), ('3', 'Handheld'), ('4', 'Burger'), ('5', 'Plate');
+    
+INSERT INTO `OtterExpress`.`Item` (`ItemID`, `Name`, `Description`, `MaxPrice`, `Healthy Choice`, `CategoryID`)
+    VALUES ('0', 'Fried Mushrooms', 'Homemade Ranch Dressing', '4.65', '0', '0'),
+    ('1', 'Mozzarella Sticks', 'Classic marinara sauce', '3.95', '0', '0'),
+    ('2', 'Onion Rings', 'Homemade, hand-battered', '4.95', '0', '0'),
+    ('3', 'Mango Salsa', 'Mango, strawberries, cucumber, sweet onion & habanero peppers', '4.15', '1', '0'),
+    ('4', 'Lettuce Wraps', 'Grilled chicken, carrots, peanuts, Shanghai Foo’s Gold & Asian Sauces with lettuce wedges', '5.15', '1', '0'),
+    ('5', 'Hummus', 'Garnished with paprika, basil & olive oil. With pita bread', '5.25', '1', '0'),
+    ('6', 'Covington', 'Grilled chicken, tomatoes, cucumber, carrots, croutons, choice of dressing', '6.50', '1', '1'),
+    ('7', 'Kentucky Club', 'Fried chicken, tomatoes, bacon, mixed cheese, croutons, Honey Mustard Dressing', '6.75', '1', '1'),
+    ('8', 'Washington', 'Spinach, grilled chicken, Granny Smith apples, bleu cheese crumbles, walnuts, Balsamic Vinaigrette', '6.60', '1', '1'),
+    ('9', 'Traditional Wings ', 'Traditional Wings with fries', '7.50', '0', '2'), ('10', 'Boneless Wings', 'Boneless Wings with fries', '8.00', '0', '2'),
+    ('11', 'Traditional Tenders', 'Traditional Tenders with fries', '7.85', '0', '2'),
+    ('12', 'Kentucky Wrap', 'Fried chicken, bacon, cheddar & Jack, Honey Mustard Dressing, signature garlic & herb tortilla', '7.20', '1', '3'),
+    ('13', 'Ra-Cha-Cha Quesadilla ', 'Onions, French fries, cheese, hot sauce, ground beef, chili', '8.15', '0', '3'),
+    ('14', 'Sizzlin'' Fajitas', 'Chicken or Shrimp. Choice of sauce, lettuce, homemade salsa, sour cream, cheddar, flour tortillas', '9.50', '0', '3'),
+    ('15', 'Shanghai Shrimp Po''Boy ', 'Fried shrimp, Shanghai Foo’s Gold Sauce, Homemade Ranch Dressing, Asian slaw, cilantro, Asian Sauce', '8.85', '0', '3'),
+    ('16', 'Chicken Quesadilla', 'Mixed cheese, garlic & herb tortilla, choice of sauce, sour cream & salsa on the side', '6.85', '0', '3'),
+    ('17', 'Texas Burger ', 'Cheddar, chopped onion, mesquite BBQ sauce, lettuce, spicy mayo on Texas Toast', '8.50', '0', '4'),
+    ('18', 'Crescent City Burger', 'Lettuce, pickles, signature sourdough bun', '8.25', '0', '4'),
+    ('19', 'St. Louis Ribs', 'Half or Full Rack. Slow-cooked ribs, choice of sauce, Texas toast, Honey Mustard Slaw', '11.50', '0', '5'),
+    ('20', 'Rib & Boneless Wing Combo', 'A portion of ribs with choice of sauce, 6 Boneless Wings with choice of sauce, BBQ Baked Beans, Texas toast', '12.15', '0', '5'),
+    ('21', 'Shrimp & Ribs Combo', 'Half rack of St. Louis Ribs & plump, golden-fried shrimp with choice of sauce, BBQ Baked Beans, Texas toast', '11.75', '0', '5');
+    
