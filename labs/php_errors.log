@@ -2584,3 +2584,447 @@ Stack trace:
 #0 /home/ubuntu/workspace/labs/5s/5s.php(47): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/labs/5s/5s.php on line 47
+[05-Apr-2016 21:15:14 UTC] PHP Warning:  Missing argument 1 for getDatabaseConnection(), called in /home/ubuntu/workspace/labs/6/loginProcess.php on line 6 and defined in /home/ubuntu/workspace/includes/database.php on line 3
+[05-Apr-2016 21:15:14 UTC] PHP Stack trace:
+[05-Apr-2016 21:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/loginProcess.php:0
+[05-Apr-2016 21:15:14 UTC] PHP   2. getDatabaseConnection($dbname = *uninitialized*) /home/ubuntu/workspace/labs/6/loginProcess.php:6
+[05-Apr-2016 21:15:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/labs/6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/loginProcess.php on line 29
+[05-Apr-2016 21:23:02 UTC] PHP Warning:  Missing argument 1 for getDatabaseConnection(), called in /home/ubuntu/workspace/labs/6/products.php on line 12 and defined in /home/ubuntu/workspace/includes/database.php on line 3
+[05-Apr-2016 21:23:02 UTC] PHP Stack trace:
+[05-Apr-2016 21:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:23:02 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/labs/6/products.php:12
+[05-Apr-2016 21:23:02 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 16
+[05-Apr-2016 21:23:02 UTC] PHP Stack trace:
+[05-Apr-2016 21:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:23:02 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:26:43 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 16
+[05-Apr-2016 21:26:43 UTC] PHP Stack trace:
+[05-Apr-2016 21:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:26:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:29:22 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 16
+[05-Apr-2016 21:29:22 UTC] PHP Stack trace:
+[05-Apr-2016 21:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:29:22 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:36:31 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:36:31 UTC] PHP Stack trace:
+[05-Apr-2016 21:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:36:31 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:36:48 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:36:48 UTC] PHP Stack trace:
+[05-Apr-2016 21:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:36:48 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:39:56 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:39:56 UTC] PHP Stack trace:
+[05-Apr-2016 21:39:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:39:56 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:40:07 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:40:07 UTC] PHP Stack trace:
+[05-Apr-2016 21:40:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:40:07 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:43:13 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:43:13 UTC] PHP Stack trace:
+[05-Apr-2016 21:43:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:43:13 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 21:43:40 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/products.php on line 18
+[05-Apr-2016 21:43:40 UTC] PHP Stack trace:
+[05-Apr-2016 21:43:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[05-Apr-2016 21:43:40 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[05-Apr-2016 22:11:46 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/labs/6/addProduct.php on line 90
+[05-Apr-2016 22:12:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 29
+[05-Apr-2016 22:12:17 UTC] PHP Stack trace:
+[05-Apr-2016 22:12:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:12:17 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:79
+[05-Apr-2016 22:13:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 29
+[05-Apr-2016 22:13:23 UTC] PHP Stack trace:
+[05-Apr-2016 22:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:13:23 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:79
+[05-Apr-2016 22:14:36 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 29
+[05-Apr-2016 22:14:36 UTC] PHP Stack trace:
+[05-Apr-2016 22:14:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:14:36 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:80
+[05-Apr-2016 22:15:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 30
+[05-Apr-2016 22:15:48 UTC] PHP Stack trace:
+[05-Apr-2016 22:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:15:48 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:80
+[05-Apr-2016 22:20:05 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:20:05 UTC] PHP Stack trace:
+[05-Apr-2016 22:20:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:20:05 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:86
+[05-Apr-2016 22:20:30 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:20:30 UTC] PHP Stack trace:
+[05-Apr-2016 22:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:20:30 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:86
+[05-Apr-2016 22:22:06 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:22:06 UTC] PHP Stack trace:
+[05-Apr-2016 22:22:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:22:06 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:22:21 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:22:21 UTC] PHP Stack trace:
+[05-Apr-2016 22:22:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:22:21 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:22:58 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:22:58 UTC] PHP Stack trace:
+[05-Apr-2016 22:22:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:22:58 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:01 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:01 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:01 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:01 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:01 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:01 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:01 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:01 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:01 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:01 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:01 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:01 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:01 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:01 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:01 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:23:51 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:23:51 UTC] PHP Stack trace:
+[05-Apr-2016 22:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:23:51 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:24:59 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 27
+[05-Apr-2016 22:24:59 UTC] PHP Stack trace:
+[05-Apr-2016 22:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:24:59 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:25:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 25
+[05-Apr-2016 22:25:10 UTC] PHP Stack trace:
+[05-Apr-2016 22:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:25:10 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:25:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 25
+[05-Apr-2016 22:25:11 UTC] PHP Stack trace:
+[05-Apr-2016 22:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:25:11 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:25:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 25
+[05-Apr-2016 22:25:11 UTC] PHP Stack trace:
+[05-Apr-2016 22:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:25:11 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:25:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 25
+[05-Apr-2016 22:25:12 UTC] PHP Stack trace:
+[05-Apr-2016 22:25:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:25:12 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:25:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 25
+[05-Apr-2016 22:25:12 UTC] PHP Stack trace:
+[05-Apr-2016 22:25:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:25:12 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:74
+[05-Apr-2016 22:26:34 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/6/addProduct.php on line 3
+[05-Apr-2016 22:26:34 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:26:34 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/6/addProduct.php on line 3
+[05-Apr-2016 22:26:34 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:26:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 4
+[05-Apr-2016 22:26:34 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:26:47 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/6/addProduct.php on line 3
+[05-Apr-2016 22:26:47 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:26:47 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/6/addProduct.php on line 3
+[05-Apr-2016 22:26:47 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:26:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/labs/6/addProduct.php on line 4
+[05-Apr-2016 22:26:47 UTC] PHP Stack trace:
+[05-Apr-2016 22:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:28:06 UTC] PHP Warning:  include(../../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/labs/6/addProduct.php on line 23
+[05-Apr-2016 22:28:06 UTC] PHP Stack trace:
+[05-Apr-2016 22:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:28:06 UTC] PHP Warning:  include(): Failed opening '../../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/labs/6/addProduct.php on line 23
+[05-Apr-2016 22:28:06 UTC] PHP Stack trace:
+[05-Apr-2016 22:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[05-Apr-2016 22:28:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ASGMT4.oe_product' doesn't exist' in /home/ubuntu/workspace/labs/6/addProduct.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/addProduct.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/addProduct.php on line 36
+[05-Apr-2016 23:57:59 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[05-Apr-2016 23:57:59 UTC] PHP Stack trace:
+[05-Apr-2016 23:57:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:00:23 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:00:23 UTC] PHP Stack trace:
+[06-Apr-2016 00:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:01:37 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:01:37 UTC] PHP Stack trace:
+[06-Apr-2016 00:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:01:41 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:01:41 UTC] PHP Stack trace:
+[06-Apr-2016 00:01:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:04:16 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:04:16 UTC] PHP Stack trace:
+[06-Apr-2016 00:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:04:18 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:04:18 UTC] PHP Stack trace:
+[06-Apr-2016 00:04:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:04:45 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:04:45 UTC] PHP Stack trace:
+[06-Apr-2016 00:04:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:06:09 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/includes/database.php:3) in /home/ubuntu/workspace/includes/database.php on line 3
+[06-Apr-2016 00:06:09 UTC] PHP Stack trace:
+[06-Apr-2016 00:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:09:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:09:22 UTC] PHP Stack trace:
+[06-Apr-2016 00:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:09:22 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:72
+[06-Apr-2016 00:09:22 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:09:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:09:38 UTC] PHP Stack trace:
+[06-Apr-2016 00:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:09:38 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:72
+[06-Apr-2016 00:09:38 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:09:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:09:40 UTC] PHP Stack trace:
+[06-Apr-2016 00:09:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:09:40 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:72
+[06-Apr-2016 00:09:40 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:10:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:10:30 UTC] PHP Stack trace:
+[06-Apr-2016 00:10:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:10:30 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:10:30 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:10:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:10:51 UTC] PHP Stack trace:
+[06-Apr-2016 00:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:10:51 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:10:51 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:11:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:11:22 UTC] PHP Stack trace:
+[06-Apr-2016 00:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:11:22 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:11:22 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:11:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:11:30 UTC] PHP Stack trace:
+[06-Apr-2016 00:11:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:11:30 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:11:30 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:12:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:12:36 UTC] PHP Stack trace:
+[06-Apr-2016 00:12:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:12:36 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:12:36 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:12:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:12:50 UTC] PHP Stack trace:
+[06-Apr-2016 00:12:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:12:50 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:12:50 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 00:13:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 00:13:50 UTC] PHP Stack trace:
+[06-Apr-2016 00:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 00:13:50 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 00:13:50 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 16:59:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 16:59:47 UTC] PHP Stack trace:
+[06-Apr-2016 16:59:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 16:59:47 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 16:59:47 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:08:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:08:27 UTC] PHP Stack trace:
+[06-Apr-2016 17:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:08:27 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:72
+[06-Apr-2016 17:08:27 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:10:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 23
+[06-Apr-2016 17:10:26 UTC] PHP Stack trace:
+[06-Apr-2016 17:10:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/products.php:0
+[06-Apr-2016 17:10:26 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/labs/6/products.php:84
+[06-Apr-2016 17:10:26 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/products.php:19
+[06-Apr-2016 17:10:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:10:41 UTC] PHP Stack trace:
+[06-Apr-2016 17:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:10:41 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 17:10:41 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:11:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:11:17 UTC] PHP Stack trace:
+[06-Apr-2016 17:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:11:17 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 17:11:17 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:11:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:11:22 UTC] PHP Stack trace:
+[06-Apr-2016 17:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:11:22 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 17:11:22 UTC] PHP   3. getDataBySQL() /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:11:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:11:41 UTC] PHP Stack trace:
+[06-Apr-2016 17:11:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:11:41 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:71
+[06-Apr-2016 17:11:41 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:12:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:12:18 UTC] PHP Stack trace:
+[06-Apr-2016 17:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:12:18 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:83
+[06-Apr-2016 17:12:18 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:9
+[06-Apr-2016 17:16:47 UTC] PHP Fatal error:  Call to undefined function getDataBySQL() in /home/ubuntu/workspace/labs/6/addProduct.php on line 7
+[06-Apr-2016 17:16:47 UTC] PHP Stack trace:
+[06-Apr-2016 17:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:16:47 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:82
+[06-Apr-2016 17:17:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:17:15 UTC] PHP Stack trace:
+[06-Apr-2016 17:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:17:15 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:83
+[06-Apr-2016 17:17:15 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:8
+[06-Apr-2016 17:18:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:25 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:25 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:26 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:26 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:27 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:27 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:27 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:27 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:54 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:54 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:56 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:56 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:57 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:57 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:18:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:18:57 UTC] PHP Stack trace:
+[06-Apr-2016 17:18:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:18:57 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:23:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:23:17 UTC] PHP Stack trace:
+[06-Apr-2016 17:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:23:17 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:23:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:23:33 UTC] PHP Stack trace:
+[06-Apr-2016 17:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:23:33 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:24:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:24:54 UTC] PHP Stack trace:
+[06-Apr-2016 17:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:24:54 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:24:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:24:54 UTC] PHP Stack trace:
+[06-Apr-2016 17:24:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:24:54 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:24:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:24:55 UTC] PHP Stack trace:
+[06-Apr-2016 17:24:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:24:55 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:24:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 8
+[06-Apr-2016 17:24:59 UTC] PHP Stack trace:
+[06-Apr-2016 17:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:24:59 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:85
+[06-Apr-2016 17:25:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 9
+[06-Apr-2016 17:25:51 UTC] PHP Stack trace:
+[06-Apr-2016 17:25:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:25:51 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:86
+[06-Apr-2016 17:25:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/labs/6/addProduct.php on line 9
+[06-Apr-2016 17:25:51 UTC] PHP Stack trace:
+[06-Apr-2016 17:25:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:25:51 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:86
+[06-Apr-2016 17:26:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:26:40 UTC] PHP Stack trace:
+[06-Apr-2016 17:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:26:40 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:87
+[06-Apr-2016 17:26:40 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:14
+[06-Apr-2016 17:26:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/includes/database.php on line 24
+[06-Apr-2016 17:26:42 UTC] PHP Stack trace:
+[06-Apr-2016 17:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/6/addProduct.php:0
+[06-Apr-2016 17:26:42 UTC] PHP   2. getProductType() /home/ubuntu/workspace/labs/6/addProduct.php:87
+[06-Apr-2016 17:26:42 UTC] PHP   3. getDataBySQL($sql = *uninitialized*) /home/ubuntu/workspace/labs/6/addProduct.php:14
+[06-Apr-2016 17:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'calories' cannot be null' in /home/ubuntu/workspace/labs/6/addProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/addProduct.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/addProduct.php on line 37
+[06-Apr-2016 17:51:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 57
+[06-Apr-2016 17:58:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 57
+[06-Apr-2016 18:01:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:03:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:05:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:05:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:06:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:06:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(93): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:08:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/includes/database.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/includes/database.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/labs/6/updateProduct.php(13): getDataBySQL('SELECT * FROM P...')
+#2 /home/ubuntu/workspace/labs/6/updateProduct.php(94): getProductById()
+#3 {main}
+  thrown in /home/ubuntu/workspace/includes/database.php on line 25
+[06-Apr-2016 18:15:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(67): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 67
+[06-Apr-2016 18:19:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(69): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 69
+[06-Apr-2016 18:19:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(67): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 67
+[06-Apr-2016 18:20:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/labs/6/updateProduct.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/labs/6/updateProduct.php(67): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/labs/6/updateProduct.php on line 67
