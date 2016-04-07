@@ -24,3 +24,4 @@ Rubric:
 8) The team used Github for collaboration (10 points)
 9) The team used Trello or a similar tool for project management (10 points)
 10) In a Word document include User Story, Database schema, and mock up (5 points)
+
