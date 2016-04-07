@@ -35,9 +35,13 @@ function displayAllProducts()
           echo "<td> <form action=updateProduct.php>";
           echo "<input type='hidden' name='productId' value='".$record['productId'] . "'/>";
           echo "<input type='submit' value='Update'/></form> </td>";
+          echo "<td> <form action=deleteProduct.php>";
+          echo "<input type='hidden' name='productId' value='".$record['productId'] . "'/>";
+          echo "<input type='submit' value='Delete'/></form> </td>";
           echo "</tr>";
         } //endForeach
         echo "</table>";
+        
      
 }
 
@@ -54,7 +58,7 @@ function displayAllProducts()
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Products</title>
-
+  <link rel="stylesheet" type="text/css" href="../../includes/style.css">
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
   <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
@@ -69,20 +73,21 @@ function displayAllProducts()
     </header>
 
    
-    <div>
-     <strong> Welcome <?=$_SESSION['adminName']?>! </strong>
-     
-     <form action="logout.php">
-        <input type="submit" value="Logout" />    
-     </form>
+    <div class="container">
+      <div class="content">
+         <strong> Welcome <?=$_SESSION['adminName']?>! </strong>
          
-     <form action="addProduct.php">
-        <input type="submit" value="Add New Product" />    
-     </form>
-         
-      <br /><br />    
-      <?= displayAllProducts() ?>
-      
+         <form action="logout.php">
+            <input type="submit" value="Logout" />    
+         </form>
+             
+         <form action="addProduct.php">
+            <input type="submit" value="Add New Product" />    
+         </form>
+             
+          <br /><br />    
+          <?= displayAllProducts() ?>
+      </div>
     </div>
 
     <footer>

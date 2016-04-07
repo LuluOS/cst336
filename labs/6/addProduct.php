@@ -54,7 +54,7 @@ if (isset($_GET['addForm']))
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Add new Product</title>
-
+  <link rel="stylesheet" type="text/css" href="../../includes/style.css">
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
   <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
@@ -63,37 +63,39 @@ if (isset($_GET['addForm']))
 </head>
 
 <body>
-  <div>
-    <header>
-      <h1>Adding New Product</h1>
-    </header>
-
-    <div>
-
-      <form >
-          Category: <?= getProductType() ?> <br>
-          Product Name: <input type="text" name="productName" /> <br />
-          Description: <br>
-            <textarea rows="4" cols="20" name="productDesc"></textarea><br />
-          Price: <input type="text" name="price" /> <br />
-          Calories: <input type="text" name="calories" /> <br />
-          Healthy Choice:
-          <select name="healthyChoice">
-            <option selected disabled hidden value = ''></option>
-            <option value="1">Yes</option>
-            <option value="0">No</option>
-          </select>
-          <br>
-          
-          <input type="submit" value="Add Product" name="addForm" />
-          
-      </form>
-      
-      
+  <div class="container">
+      <div class="content">
+      <header>
+        <h1>Adding New Product</h1>
+      </header>
+  
+      <div>
+  
+        <form >
+            Category: <?= getProductType() ?> <br>
+            Product Name: <input type="text" name="productName" /> <br />
+            Description: <br>
+              <textarea rows="4" cols="20" name="productDesc"></textarea><br />
+            Price: <input type="text" name="price" /> <br />
+            Calories: <input type="text" name="calories" /> <br />
+            Healthy Choice:
+            <select name="healthyChoice">
+              <option selected disabled hidden value = ''></option>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select>
+            <br>
+            
+            <input type="submit" value="Add Product" name="addForm" />
+            
+        </form>
+        
+        
+      </div>
+  
+      <footer>
+      </footer>
     </div>
-
-    <footer>
-    </footer>
   </div>
 </body>
 </html>

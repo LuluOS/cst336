@@ -60,8 +60,6 @@ if (isset($_GET['updateForm']))
     echo "<input type=button onClick=\"location.href='products.php'\" value='Home'>";
 }
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -74,7 +72,7 @@ if (isset($_GET['updateForm']))
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>updateProduct</title>
-
+  <link rel="stylesheet" type="text/css" href="../../includes/style.css">
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
   <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
@@ -83,40 +81,38 @@ if (isset($_GET['updateForm']))
 </head>
 
 <body>
-  <div>
-    <header>
-      <h1>Update Product</h1>
-    </header>
-
-    <div>
+    <div class="container">
+      <div class="content">
+        <header>
+          <h1>Update Product</h1>
+        </header>
         
         <?php
           $product = getProductById();
         ?>
 
-      <form>
-          
-          Category: <?= getProductType() ?> <br>
-          Product Name: <input type="text" name="productName" /> <br />
-          Description: <br>
-            <textarea rows="4" cols="20" name="productDesc"></textarea><br />
-          Price: <input type="text" name="price" /> <br />
-          Calories: <input type="text" name="calories" /> <br />
-          Healthy Choice:
-          <select name="healthyChoice">
-            <option selected disabled hidden value = ''></option>
-            <option value="1">Yes</option>
-            <option value="0">No</option>
-          </select>
-          <br>
-          <input type="hidden" name="productId" value="<?=$product['productId']?>" />
-          
-          <input type="submit" value="Update Product" name="updateForm" />
-          
-      </form>
+        <form>
+            
+            Category: <?= getProductType() ?> <br>
+            Product Name: <input type="text" name="productName" /> <br />
+            Description: <br>
+              <textarea rows="4" cols="20" name="productDesc"></textarea><br />
+            Price: <input type="text" name="price" /> <br />
+            Calories: <input type="text" name="calories" /> <br />
+            Healthy Choice:
+            <select name="healthyChoice">
+              <option selected disabled hidden value = ''></option>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select>
+            <br>
+            <input type="hidden" name="productId" value="<?=$product['productId']?>" />
+            
+            <input type="submit" value="Update Product" name="updateForm" />
+            
+        </form>
 
-      
-    </div>
+      </div>
 
     <footer>
     </footer>
