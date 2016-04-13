@@ -1,0 +1,15 @@
+How to update the project in git
+
+Make sure that you are in the correct folder in the bash terminal:
+    $ cd team_project/cst336_teamProject
+
+Make sure to update your folder before you make any changes:
+    $ git pull
+
+To upload the files to the git:
+    $ git add --all
+    $ git commit -m "your commit message"
+    $ git push
+    
+    
+    

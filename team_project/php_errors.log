@@ -1,0 +1,28 @@
+[13-Apr-2016 06:45:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'luluos'@'localhost' (using password: YES)' in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php(16): PDO->__construct('mysql:host=0.0....', 'luluos', '1234')
+#1 /home/ubuntu/workspace/team_project/cst336_teamProject/head.php(4): dbConnect()
+#2 /home/ubuntu/workspace/team_project/cst336_teamProject/index.php(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php on line 16
+[13-Apr-2016 06:46:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'Music'' in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php(16): PDO->__construct('mysql:host=0.0....', 'luluos', '0987654321')
+#1 /home/ubuntu/workspace/team_project/cst336_teamProject/head.php(4): dbConnect()
+#2 /home/ubuntu/workspace/team_project/cst336_teamProject/index.php(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php on line 16
+[13-Apr-2016 06:51:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'Music'' in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php(16): PDO->__construct('mysql:host=0.0....', 'luluos', '0987654321')
+#1 /home/ubuntu/workspace/team_project/cst336_teamProject/head.php(4): dbConnect()
+#2 /home/ubuntu/workspace/team_project/cst336_teamProject/index.php(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php on line 16
+[13-Apr-2016 06:54:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'Music'' in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php(16): PDO->__construct('mysql:host=0.0....', 'luluos', '0987654321')
+#1 /home/ubuntu/workspace/team_project/cst336_teamProject/head.php(4): dbConnect()
+#2 /home/ubuntu/workspace/team_project/cst336_teamProject/index.php(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/team_project/cst336_teamProject/dbConn.php on line 16
